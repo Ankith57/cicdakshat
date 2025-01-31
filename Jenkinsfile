@@ -10,7 +10,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t ankithchiplunkar97/endtoendproject25may:v1 .'
+                    sh 'docker build -t ankithchiplunkar57/endtoendproject:v1 .'
                 }
             }
         }
